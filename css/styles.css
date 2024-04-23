@@ -315,20 +315,26 @@ header {
 	border-radius: 50%;
 	align-items: center;
 	justify-content: center;
+	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+⁡⁣⁣⁢/* Деякі закоментовані рядки коду залишив для себе - для нагадування, бо грався з елементами, чи ще з якихось інших причин(все ж таки навчання, а не реальний проєкт) */⁡⁡
+
 .icon-svg {
-	width: 16px;
-	height: 16px;
-	fill: orange;
+	/* width: 16px;
+	height: 16px; */
+	fill: #f4f4fd; /* Для того щоб прибрати warning */
 }
 
 .team-li:hover .icon-link {
 	background-color: #404BBF;
+	/* transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .team-li .icon-link:hover {
 	background-color: #31D0AA;
+	/* scale: 1.5; */
+	/* transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 /* ----------------Section-our-team end---------------- */
@@ -394,6 +400,15 @@ header {
 	height: 120px;
 }
 
+.empty-class-for-autocheck {
+	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.empty-class-for-autocheck:hover {
+	box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+	/* transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+}
+
 /* ----------------Section-portfolio end----------------- */
 /* ----------------Main end----------------- */
 
@@ -443,4 +458,35 @@ header {
 	margin-bottom: 16px;
 }
 
+.footer-p-social {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #fff;
+	padding-bottom: 16px;
+}
+
+.basement .icon-link:hover {
+	background-color: #31D0AA;
+}
+
+.icon-list.basement {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	padding: 0;
+}
+
+
+.div-social-basement {
+	position: absolute;
+	top: 0;
+	left: 384px;
+}
+
+.footer-wrapper {
+	position: relative;
+}
 /* ----------------Footer end----------------- */
