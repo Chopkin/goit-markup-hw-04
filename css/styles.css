@@ -51,7 +51,6 @@ button {
 .ul-menu {
 	display: flex;
 	gap: 40px;
-	position: relative;
 }
 
 .address-container-header {
@@ -90,7 +89,7 @@ header {
 
 .ul-menu .menu:hover::after {
 	display: block;
-	position: absolute;
+	position: relative;
 
 	margin: 0 auto;
 	margin-top: 20px;
