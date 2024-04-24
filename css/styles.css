@@ -90,9 +90,11 @@ header {
 
 .ul-menu .menu:hover::after {
 	display: block;
-	position: relative;
+	position: absolute;
+	left: 0;
+	bottom: -1px;
 
-	margin: 0 auto;
+
 	margin-top: 20px;
 	content: '';
 
@@ -114,7 +116,7 @@ header {
 	line-height: 1.17;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	color: #404bbf;
+	color: #4d5ae5;
 	position: relative;
 }
 .web-text {
