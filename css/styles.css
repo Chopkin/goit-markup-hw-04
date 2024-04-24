@@ -86,6 +86,20 @@ header {
 	color: #404bbf
 }
 
+.ul-menu .menu:hover::after {
+	display: block;
+	position: relative;
+
+	margin: 0 auto;
+	margin-top: 20px;
+	content: '';
+
+	border-radius: 2px;
+	width: 100%;
+	height: 4px;
+	background: #404bbf;
+}
+
 .one-more-color {
 	color: #434455;
 	font-weight: 400;
@@ -225,6 +239,22 @@ header {
 	clip-path: inset(100%);
 	clip: rect(0 0 0 0);
 	overflow: hidden;
+}
+
+.features-icon-box {
+	display: flex;
+	border: 1px solid #8e8f99;
+	border-radius: 4px;
+	width: 264px;
+	height: 112px;
+	background: #f4f4fd;
+	margin-bottom: 8px;
+	}
+
+.features-icon {
+	margin: auto auto;
+	justify-content: center;
+	align-items: center;
 }
 
 /* ----------------Section-features end----------------- */
