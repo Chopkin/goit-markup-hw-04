@@ -51,6 +51,7 @@ button {
 .ul-menu {
 	display: flex;
 	gap: 40px;
+	position: relative;
 }
 
 .address-container-header {
@@ -70,6 +71,7 @@ button {
 
 header {
 	border-bottom: 1px solid #434455;
+	box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);;
 }
 
 .menu {
@@ -88,7 +90,7 @@ header {
 
 .ul-menu .menu:hover::after {
 	display: block;
-	position: relative;
+	position: absolute;
 
 	margin: 0 auto;
 	margin-top: 20px;
@@ -154,6 +156,7 @@ header {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
 .h-title-hero {
