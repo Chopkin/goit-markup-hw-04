@@ -450,7 +450,7 @@ header {
 }
 
 .empty-class-for-autocheck {
-	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .empty-class-for-autocheck:hover {
@@ -476,17 +476,15 @@ header {
 	letter-spacing: 0.02em;
 	color: #f4f4fd;
 
-	transform: translateY(100%);
-	transition: transform 350ms ease;
-	padding-left: 32px;
-	padding-right: 32px;
-	padding-top: 40px;
+	transform: translateY(0);
+	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	padding: 40px 32px;
 	/* transition-delay: 200ms; */
 	transition-duration: 500ms;
 }
 
 .empty-class-for-autocheck:hover .portfolio-box p {
-	transform: translateY(0);
+	transform: translateY(100%);
 	/* transition-delay: 200ms; */
 	transition-duration: 500ms;
 	transition-property: all;
