@@ -368,18 +368,18 @@ header {
 
 }
 
-.team-li:hover .icon-link:hover {
+.team-li .icon-link:hover {
 	background-color: #404bbf;
 	/* transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
-.team-li:focus .icon-link:focus {
+.team-li .icon-link:focus {
 	background-color: #404bbf;
 }
 
-/* .team-li:active .icon-link {
+.team-li .icon-link:active {
 	background-color: #404bbf;
-} */
+}
 
 /* .team-li .icon-link:hover {
 	background-color: #31D0AA;
