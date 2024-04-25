@@ -94,13 +94,13 @@ header {
 	color: #404bbf;
 }
 
-.ul-menu .menu:hover::after {
+.menu:hover::after {
 	display: block;
 	position: absolute;
 	left: 0;
 	bottom: -1px;
 
-	content: '';
+	content: "";
 
 	border-radius: 2px;
 	width: 100%;
