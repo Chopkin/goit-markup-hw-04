@@ -262,13 +262,11 @@ header {
 	height: 112px;
 	background: #f4f4fd;
 	margin-bottom: 8px;
-	}
-
-.features-icon {
-	margin: auto auto;
 	justify-content: center;
 	align-items: center;
 }
+
+
 
 /* ----------------Section-features end----------------- */
 
