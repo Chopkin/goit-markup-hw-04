@@ -84,6 +84,11 @@ header {
 	display: block;
 	padding: 24px 0;
 }
+
+.menu-first-item {
+	color: #404bbf;;
+}
+
 .menu:hover,
 .menu:focus {
 	color: #404bbf;
