@@ -464,7 +464,7 @@ header {
 	overflow: hidden;
 }
 
-.portfolio-box p {
+.portfolio-box-paragraph {
 	position: absolute;
 	top: 0;
 	background-color: #4D5AE5;
