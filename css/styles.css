@@ -369,7 +369,7 @@ header {
 }
 
 .team-li:hover .icon-link {
-	background-color: #404BBF;
+	background-color: #404bbf;
 	/* transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
@@ -377,9 +377,9 @@ header {
 	background-color: #404bbf;
 }
 
-.team-li:active .icon-link {
+/* .team-li:active .icon-link {
 	background-color: #404bbf;
-}
+} */
 
 /* .team-li .icon-link:hover {
 	background-color: #31D0AA;
