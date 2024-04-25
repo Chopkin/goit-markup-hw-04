@@ -356,7 +356,7 @@ header {
 	border-radius: 50%;
 	align-items: center;
 	justify-content: center;
-	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 ⁡⁣⁣⁢/* Деякі закоментовані рядки коду залишив для себе - для нагадування, бо грався з елементами, чи ще з якихось інших причин(все ж таки навчання, а не реальний проєкт) */⁡⁡
@@ -372,11 +372,15 @@ header {
 	/* transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
-.team-li .icon-link:hover {
-	background-color: #31D0AA;
-	/* scale: 1.5; */
-	/* transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+.team-li:active .icon-link {
+	background-color: #404bbf;
 }
+
+/* .team-li .icon-link:hover {
+	background-color: #31D0AA;
+	scale: 1.5;
+	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
 
 /* ----------------Section-our-team end---------------- */
 
