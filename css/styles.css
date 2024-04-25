@@ -483,7 +483,6 @@ header {
 
 .empty-class-for-autocheck:hover .portfolio-box-paragraph {
 	transform: translateY(0%);
-	transition-property: all;
 }
 /* ----------------Section-portfolio end----------------- */
 /* ----------------Main end----------------- */
