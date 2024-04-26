@@ -74,7 +74,6 @@ header {
 }
 
 .menu {
-	position: relative;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
@@ -88,6 +87,7 @@ header {
 
 .menu-first-item {
 	color: #404bbf;;
+	position: relative;
 }
 
 .menu:hover,
@@ -95,7 +95,7 @@ header {
 	color: #404bbf;
 }
 
-.ul-menu .menu::after { /* Баг чи у мене, чи в автоперевірці: автоперевірка вважає що цього стовпчика коду не існує і не зараховує, якщо написано ось так - ul-menu .menu:hover::after */
+.menu-first-item::after { /* Баг чи у мене, чи в автоперевірці: автоперевірка вважає що цього стовпчика коду не існує і не зараховує, якщо написано ось так - ul-menu .menu:hover::after */
 	display: block;
 	position: absolute;
 	left: 0;
@@ -158,7 +158,7 @@ header {
 		to bottom,
 		rgba(46, 47, 66, 0.7),
 		rgba(46, 47, 66, 0.7)
-	), url(/images/people-office-1.jpg);
+	), url(../images/people-office-1.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
